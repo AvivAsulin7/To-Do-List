@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     padding-bottom: 3px;
     border-radius: 5px;
-    background-color: #ffeaa7;
+    
   }
   button span {
     background: #f1f5f8;
@@ -81,4 +81,9 @@ body {
   .item {
     display: flex;
     justify-content: space-between;
+    background-size: 25px 25px;
+  }
+
+  .item button {
+    padding: 0 0.7rem;
   }
